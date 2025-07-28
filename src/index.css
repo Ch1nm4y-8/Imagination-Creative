@@ -1,0 +1,52 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Pacifico&family=Permanent+Marker&family=Anton&family=Playwrite+AU+QLD&display=swap");
+@import "tailwindcss";
+
+/* Font Config */
+.font-anton {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-permanent-marker {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.font-pacifico {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-cinzel {
+  font-family: "Cinzel", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.font-playwrite {
+  font-family: "Playwrite AU QLD", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff5722;
+  border-radius: 4px;
+}
+
+.no-select {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Standard syntax */
+}
