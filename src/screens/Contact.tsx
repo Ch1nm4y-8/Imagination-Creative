@@ -1,5 +1,3 @@
-import React from "react";
-
 import { Address, MailId, MapUrl, PhoneNumber, whatsappLink } from "../utils/Constants";
 import { mailIcon, mapIcon, phoneIcon, whatsappIcon } from "./svgIcons";
 
