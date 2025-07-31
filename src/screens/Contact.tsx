@@ -1,4 +1,4 @@
-import { Address, MailId, MapUrl, PhoneNumber, whatsappLink } from "../utils/Constants";
+import { Address, MailId, MapUrl, PhoneNumber, PhoneNumber2, whatsappLink } from "../utils/Constants";
 import { mailIcon, mapIcon, phoneIcon, whatsappIcon } from "./svgIcons";
 
 const config = [
@@ -13,6 +13,12 @@ const config = [
     title: "Phone",
     content: PhoneNumber,
     link: `tel:${PhoneNumber}`,
+  },
+  {
+    icon: phoneIcon,
+    title: "Phone",
+    content: PhoneNumber2,
+    link: `tel:${PhoneNumber2}`,
   },
   {
     icon: mailIcon,
@@ -39,7 +45,7 @@ const Contact = () => {
               href={item.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="info flex items-center gap-3 cursor-pointer group hover:bg-gray-800 p-4 rounded-md transition-all duration-300"
+              className="info flex items-center gap-3 cursor-pointer group hover:bg-gray-800 p-3 rounded-md transition-all duration-300"
             >
               <div className="group-hover:scale-110 transition-transform duration-300">{item.icon}</div>
               <div className="flex flex-col">
